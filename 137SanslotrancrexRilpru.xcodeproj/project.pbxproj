@@ -3,33 +3,81 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		30CB40B22F8E422C00699281 /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB407A2F8E422C00699281 /* AppStorage.swift */; };
+		30CB40B32F8E422C00699281 /* AppExternalLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB407C2F8E422C00699281 /* AppExternalLink.swift */; };
+		30CB40B42F8E422C00699281 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB407F2F8E422C00699281 /* GameModels.swift */; };
+		30CB40B52F8E422C00699281 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB40822F8E422C00699281 /* AchievementsView.swift */; };
+		30CB40B62F8E422C00699281 /* PathfinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB40842F8E422C00699281 /* PathfinderView.swift */; };
+		30CB40B72F8E422C00699281 /* PathfinderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB40852F8E422C00699281 /* PathfinderViewModel.swift */; };
+		30CB40B82F8E422C00699281 /* StrategicStacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB40872F8E422C00699281 /* StrategicStacksView.swift */; };
+		30CB40B92F8E422C00699281 /* StrategicStacksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB40882F8E422C00699281 /* StrategicStacksViewModel.swift */; };
+		30CB40BA2F8E422C00699281 /* TileTacticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB408A2F8E422C00699281 /* TileTacticsView.swift */; };
+		30CB40BB2F8E422C00699281 /* TileTacticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB408B2F8E422C00699281 /* TileTacticsViewModel.swift */; };
+		30CB40BC2F8E422C00699281 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB408E2F8E422C00699281 /* HomeView.swift */; };
+		30CB40BD2F8E422C00699281 /* AppShellTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB40902F8E422C00699281 /* AppShellTab.swift */; };
+		30CB40BE2F8E422C00699281 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB40912F8E422C00699281 /* MainTabView.swift */; };
+		30CB40BF2F8E422C00699281 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB40932F8E422C00699281 /* OnboardingView.swift */; };
+		30CB40C02F8E422C00699281 /* ActivitySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB40952F8E422C00699281 /* ActivitySelectionView.swift */; };
+		30CB40C12F8E422C00699281 /* GameHostingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB40962F8E422C00699281 /* GameHostingView.swift */; };
+		30CB40C22F8E422C00699281 /* LevelGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB40972F8E422C00699281 /* LevelGridView.swift */; };
+		30CB40C32F8E422C00699281 /* PlayRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB40982F8E422C00699281 /* PlayRootView.swift */; };
+		30CB40C42F8E422C00699281 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB409A2F8E422C00699281 /* ProfileView.swift */; };
+		30CB40C52F8E422C00699281 /* ActivityResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB409C2F8E422C00699281 /* ActivityResultView.swift */; };
+		30CB40C62F8E422C00699281 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB409E2F8E422C00699281 /* SettingsView.swift */; };
+		30CB40C72F8E422C00699281 /* StarGlyphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB40A12F8E422C00699281 /* StarGlyphView.swift */; };
+		30CB40C82F8E422C00699281 /* AppDepthChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB40A32F8E422C00699281 /* AppDepthChrome.swift */; };
+		30CB40C92F8E422C00699281 /* BoardButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB40A42F8E422C00699281 /* BoardButtonStyles.swift */; };
+		30CB40CA2F8E422C00699281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB40A72F8E422C00699281 /* AppDelegate.swift */; };
+		30CB40CB2F8E422C00699281 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB40A92F8E422C00699281 /* ContentView.swift */; };
+		30CB40CC2F8E422C00699281 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB40AF2F8E422C00699281 /* SceneDelegate.swift */; };
+		30CB40CD2F8E422C00699281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB40B02F8E422C00699281 /* ViewController.swift */; };
+		30CB40CE2F8E422C00699281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30CB40A82F8E422C00699281 /* Assets.xcassets */; };
+		30CB40D02F8E422C00699281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CB40AC2F8E422C00699281 /* LaunchScreen.storyboard */; };
+		30CB40D12F8E422C00699281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CB40AE2F8E422C00699281 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		23467F33B02748B0013FEA21 /* Pods-137SanslotrancrexRilpru.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-137SanslotrancrexRilpru.debug.xcconfig"; path = "Target Support Files/Pods-137SanslotrancrexRilpru/Pods-137SanslotrancrexRilpru.debug.xcconfig"; sourceTree = "<group>"; };
 		30CB3D3E2F8E1A5600699281 /* 137SanslotrancrexRilpru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 137SanslotrancrexRilpru.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CB407A2F8E422C00699281 /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		30CB407C2F8E422C00699281 /* AppExternalLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalLink.swift; sourceTree = "<group>"; };
+		30CB407F2F8E422C00699281 /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
+		30CB40822F8E422C00699281 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		30CB40842F8E422C00699281 /* PathfinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathfinderView.swift; sourceTree = "<group>"; };
+		30CB40852F8E422C00699281 /* PathfinderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathfinderViewModel.swift; sourceTree = "<group>"; };
+		30CB40872F8E422C00699281 /* StrategicStacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategicStacksView.swift; sourceTree = "<group>"; };
+		30CB40882F8E422C00699281 /* StrategicStacksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategicStacksViewModel.swift; sourceTree = "<group>"; };
+		30CB408A2F8E422C00699281 /* TileTacticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileTacticsView.swift; sourceTree = "<group>"; };
+		30CB408B2F8E422C00699281 /* TileTacticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileTacticsViewModel.swift; sourceTree = "<group>"; };
+		30CB408E2F8E422C00699281 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		30CB40902F8E422C00699281 /* AppShellTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShellTab.swift; sourceTree = "<group>"; };
+		30CB40912F8E422C00699281 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		30CB40932F8E422C00699281 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		30CB40952F8E422C00699281 /* ActivitySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitySelectionView.swift; sourceTree = "<group>"; };
+		30CB40962F8E422C00699281 /* GameHostingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHostingView.swift; sourceTree = "<group>"; };
+		30CB40972F8E422C00699281 /* LevelGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelGridView.swift; sourceTree = "<group>"; };
+		30CB40982F8E422C00699281 /* PlayRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayRootView.swift; sourceTree = "<group>"; };
+		30CB409A2F8E422C00699281 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		30CB409C2F8E422C00699281 /* ActivityResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityResultView.swift; sourceTree = "<group>"; };
+		30CB409E2F8E422C00699281 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		30CB40A12F8E422C00699281 /* StarGlyphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarGlyphView.swift; sourceTree = "<group>"; };
+		30CB40A32F8E422C00699281 /* AppDepthChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDepthChrome.swift; sourceTree = "<group>"; };
+		30CB40A42F8E422C00699281 /* BoardButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardButtonStyles.swift; sourceTree = "<group>"; };
+		30CB40A72F8E422C00699281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30CB40A82F8E422C00699281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30CB40A92F8E422C00699281 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30CB40AA2F8E422C00699281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30CB40AB2F8E422C00699281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30CB40AD2F8E422C00699281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30CB40AF2F8E422C00699281 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		30CB40B02F8E422C00699281 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		531515E52208D65034846495 /* Pods-137SanslotrancrexRilpru.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-137SanslotrancrexRilpru.release.xcconfig"; path = "Target Support Files/Pods-137SanslotrancrexRilpru/Pods-137SanslotrancrexRilpru.release.xcconfig"; sourceTree = "<group>"; };
+		E8BC4B456182C96385D9925E /* Pods_137SanslotrancrexRilpru.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_137SanslotrancrexRilpru.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		30CB3D502F8E1A5800699281 /* Exceptions for "137SanslotrancrexRilpru" folder in "137SanslotrancrexRilpru" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 30CB3D3D2F8E1A5600699281 /* 137SanslotrancrexRilpru */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		30CB3D402F8E1A5600699281 /* 137SanslotrancrexRilpru */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				30CB3D502F8E1A5800699281 /* Exceptions for "137SanslotrancrexRilpru" folder in "137SanslotrancrexRilpru" target */,
-			);
-			path = 137SanslotrancrexRilpru;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		30CB3D3B2F8E1A5600699281 /* Frameworks */ = {
@@ -42,11 +90,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A0FD1E072BF8DEECA237D7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23467F33B02748B0013FEA21 /* Pods-137SanslotrancrexRilpru.debug.xcconfig */,
+				531515E52208D65034846495 /* Pods-137SanslotrancrexRilpru.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		30CB3D352F8E1A5600699281 = {
 			isa = PBXGroup;
 			children = (
-				30CB3D402F8E1A5600699281 /* 137SanslotrancrexRilpru */,
+				30CB40B12F8E422C00699281 /* 137SanslotrancrexRilpru */,
 				30CB3D3F2F8E1A5600699281 /* Products */,
+				2A0FD1E072BF8DEECA237D7C /* Pods */,
+				DF511A6D1A937BC4ABFBA375 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +117,221 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		30CB407B2F8E422C00699281 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				30CB407A2F8E422C00699281 /* AppStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		30CB407D2F8E422C00699281 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				30CB407B2F8E422C00699281 /* Storage */,
+				30CB407C2F8E422C00699281 /* AppExternalLink.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		30CB407E2F8E422C00699281 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		30CB40802F8E422C00699281 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				30CB407F2F8E422C00699281 /* GameModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		30CB40812F8E422C00699281 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				30CB40802F8E422C00699281 /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		30CB40832F8E422C00699281 /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				30CB40822F8E422C00699281 /* AchievementsView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		30CB40862F8E422C00699281 /* Pathfinder */ = {
+			isa = PBXGroup;
+			children = (
+				30CB40842F8E422C00699281 /* PathfinderView.swift */,
+				30CB40852F8E422C00699281 /* PathfinderViewModel.swift */,
+			);
+			path = Pathfinder;
+			sourceTree = "<group>";
+		};
+		30CB40892F8E422C00699281 /* StrategicStacks */ = {
+			isa = PBXGroup;
+			children = (
+				30CB40872F8E422C00699281 /* StrategicStacksView.swift */,
+				30CB40882F8E422C00699281 /* StrategicStacksViewModel.swift */,
+			);
+			path = StrategicStacks;
+			sourceTree = "<group>";
+		};
+		30CB408C2F8E422C00699281 /* TileTactics */ = {
+			isa = PBXGroup;
+			children = (
+				30CB408A2F8E422C00699281 /* TileTacticsView.swift */,
+				30CB408B2F8E422C00699281 /* TileTacticsViewModel.swift */,
+			);
+			path = TileTactics;
+			sourceTree = "<group>";
+		};
+		30CB408D2F8E422C00699281 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				30CB40862F8E422C00699281 /* Pathfinder */,
+				30CB40892F8E422C00699281 /* StrategicStacks */,
+				30CB408C2F8E422C00699281 /* TileTactics */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
+		30CB408F2F8E422C00699281 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				30CB408E2F8E422C00699281 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		30CB40922F8E422C00699281 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				30CB40902F8E422C00699281 /* AppShellTab.swift */,
+				30CB40912F8E422C00699281 /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		30CB40942F8E422C00699281 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				30CB40932F8E422C00699281 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		30CB40992F8E422C00699281 /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				30CB40952F8E422C00699281 /* ActivitySelectionView.swift */,
+				30CB40962F8E422C00699281 /* GameHostingView.swift */,
+				30CB40972F8E422C00699281 /* LevelGridView.swift */,
+				30CB40982F8E422C00699281 /* PlayRootView.swift */,
+			);
+			path = Play;
+			sourceTree = "<group>";
+		};
+		30CB409B2F8E422C00699281 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				30CB409A2F8E422C00699281 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		30CB409D2F8E422C00699281 /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				30CB409C2F8E422C00699281 /* ActivityResultView.swift */,
+			);
+			path = Results;
+			sourceTree = "<group>";
+		};
+		30CB409F2F8E422C00699281 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				30CB409E2F8E422C00699281 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		30CB40A02F8E422C00699281 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				30CB40832F8E422C00699281 /* Achievements */,
+				30CB408D2F8E422C00699281 /* Activities */,
+				30CB408F2F8E422C00699281 /* Home */,
+				30CB40922F8E422C00699281 /* Main */,
+				30CB40942F8E422C00699281 /* Onboarding */,
+				30CB40992F8E422C00699281 /* Play */,
+				30CB409B2F8E422C00699281 /* Profile */,
+				30CB409D2F8E422C00699281 /* Results */,
+				30CB409F2F8E422C00699281 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		30CB40A22F8E422C00699281 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				30CB40A12F8E422C00699281 /* StarGlyphView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		30CB40A52F8E422C00699281 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				30CB40A32F8E422C00699281 /* AppDepthChrome.swift */,
+				30CB40A42F8E422C00699281 /* BoardButtonStyles.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		30CB40A62F8E422C00699281 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				30CB40A22F8E422C00699281 /* Components */,
+				30CB40A52F8E422C00699281 /* Styles */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		30CB40B12F8E422C00699281 /* 137SanslotrancrexRilpru */ = {
+			isa = PBXGroup;
+			children = (
+				30CB407D2F8E422C00699281 /* Core */,
+				30CB407E2F8E422C00699281 /* DesignSystem */,
+				30CB40812F8E422C00699281 /* Domain */,
+				30CB40A02F8E422C00699281 /* Features */,
+				30CB40A62F8E422C00699281 /* Shared */,
+				30CB40A72F8E422C00699281 /* AppDelegate.swift */,
+				30CB40A82F8E422C00699281 /* Assets.xcassets */,
+				30CB40A92F8E422C00699281 /* ContentView.swift */,
+				30CB40AA2F8E422C00699281 /* Info.plist */,
+				30CB40AC2F8E422C00699281 /* LaunchScreen.storyboard */,
+				30CB40AE2F8E422C00699281 /* Main.storyboard */,
+				30CB40AF2F8E422C00699281 /* SceneDelegate.swift */,
+				30CB40B02F8E422C00699281 /* ViewController.swift */,
+			);
+			path = 137SanslotrancrexRilpru;
+			sourceTree = "<group>";
+		};
+		DF511A6D1A937BC4ABFBA375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8BC4B456182C96385D9925E /* Pods_137SanslotrancrexRilpru.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +339,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30CB3D512F8E1A5800699281 /* Build configuration list for PBXNativeTarget "137SanslotrancrexRilpru" */;
 			buildPhases = (
+				5830E7EEFABE5743C9E0CE1E /* [CP] Check Pods Manifest.lock */,
 				30CB3D3A2F8E1A5600699281 /* Sources */,
 				30CB3D3B2F8E1A5600699281 /* Frameworks */,
 				30CB3D3C2F8E1A5600699281 /* Resources */,
@@ -73,12 +348,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				30CB3D402F8E1A5600699281 /* 137SanslotrancrexRilpru */,
-			);
 			name = 137SanslotrancrexRilpru;
-			packageProductDependencies = (
-			);
 			productName = 137SanslotrancrexRilpru;
 			productReference = 30CB3D3E2F8E1A5600699281 /* 137SanslotrancrexRilpru.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +369,7 @@
 				};
 			};
 			buildConfigurationList = 30CB3D392F8E1A5600699281 /* Build configuration list for PBXProject "137SanslotrancrexRilpru" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +377,6 @@
 				Base,
 			);
 			mainGroup = 30CB3D352F8E1A5600699281;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 30CB3D3F2F8E1A5600699281 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +391,100 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30CB40CE2F8E422C00699281 /* Assets.xcassets in Resources */,
+				30CB40D02F8E422C00699281 /* LaunchScreen.storyboard in Resources */,
+				30CB40D12F8E422C00699281 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5830E7EEFABE5743C9E0CE1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-137SanslotrancrexRilpru-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30CB3D3A2F8E1A5600699281 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30CB40B22F8E422C00699281 /* AppStorage.swift in Sources */,
+				30CB40B32F8E422C00699281 /* AppExternalLink.swift in Sources */,
+				30CB40B42F8E422C00699281 /* GameModels.swift in Sources */,
+				30CB40B52F8E422C00699281 /* AchievementsView.swift in Sources */,
+				30CB40B62F8E422C00699281 /* PathfinderView.swift in Sources */,
+				30CB40B72F8E422C00699281 /* PathfinderViewModel.swift in Sources */,
+				30CB40B82F8E422C00699281 /* StrategicStacksView.swift in Sources */,
+				30CB40B92F8E422C00699281 /* StrategicStacksViewModel.swift in Sources */,
+				30CB40BA2F8E422C00699281 /* TileTacticsView.swift in Sources */,
+				30CB40BB2F8E422C00699281 /* TileTacticsViewModel.swift in Sources */,
+				30CB40BC2F8E422C00699281 /* HomeView.swift in Sources */,
+				30CB40BD2F8E422C00699281 /* AppShellTab.swift in Sources */,
+				30CB40BE2F8E422C00699281 /* MainTabView.swift in Sources */,
+				30CB40BF2F8E422C00699281 /* OnboardingView.swift in Sources */,
+				30CB40C02F8E422C00699281 /* ActivitySelectionView.swift in Sources */,
+				30CB40C12F8E422C00699281 /* GameHostingView.swift in Sources */,
+				30CB40C22F8E422C00699281 /* LevelGridView.swift in Sources */,
+				30CB40C32F8E422C00699281 /* PlayRootView.swift in Sources */,
+				30CB40C42F8E422C00699281 /* ProfileView.swift in Sources */,
+				30CB40C52F8E422C00699281 /* ActivityResultView.swift in Sources */,
+				30CB40C62F8E422C00699281 /* SettingsView.swift in Sources */,
+				30CB40C72F8E422C00699281 /* StarGlyphView.swift in Sources */,
+				30CB40C82F8E422C00699281 /* AppDepthChrome.swift in Sources */,
+				30CB40C92F8E422C00699281 /* BoardButtonStyles.swift in Sources */,
+				30CB40CA2F8E422C00699281 /* AppDelegate.swift in Sources */,
+				30CB40CB2F8E422C00699281 /* ContentView.swift in Sources */,
+				30CB40CC2F8E422C00699281 /* SceneDelegate.swift in Sources */,
+				30CB40CD2F8E422C00699281 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		30CB40AC2F8E422C00699281 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CB40AB2F8E422C00699281 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		30CB40AE2F8E422C00699281 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CB40AD2F8E422C00699281 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		30CB3D522F8E1A5800699281 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23467F33B02748B0013FEA21 /* Pods-137SanslotrancrexRilpru.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +492,39 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 137SanslotrancrexRilpru/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sanslotrancrex Rilpru";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-37SanslotrancrexRilpru";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rob.s7nsl0tr2ncr3xr9l;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		30CB3D532F8E1A5800699281 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 531515E52208D65034846495 /* Pods-137SanslotrancrexRilpru.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +532,33 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 137SanslotrancrexRilpru/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sanslotrancrex Rilpru";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-37SanslotrancrexRilpru";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rob.s7nsl0tr2ncr3xr9l;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
